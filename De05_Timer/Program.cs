@@ -28,8 +28,11 @@ namespace De05_Timer
             {
                 if (isStopTimer1)
                 {
+                    //Console.WriteLine("Timer1 da dung");
                     return;
                 }
+
+
                 Console.ForegroundColor = ConsoleColor.Green;
                 string s = String.Empty;
 
@@ -58,6 +61,7 @@ namespace De05_Timer
             {
                 if (isStopTimer1)
                 {
+                    //Console.WriteLine("Timer2 da dung");
                     timer2.Dispose();
 
 
